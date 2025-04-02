@@ -1,5 +1,7 @@
 # PyStand-cli
 
+[中文说明](https://github.com/ASTWY/PyStand-cli/blob/main/docs/README.zh_cn.md)
+
 This tool packages a Python project into a standalone executable using [PyStand](https://github.com/skywind3000/PyStand) and embeddable Python. It supports excluding specific directories and files, and provides a progress bar for file copying.
 
 ---
@@ -91,12 +93,6 @@ output_dir/
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-## Contributing
-
-Please open an issue or submit a pull request.
 
 ---
 
