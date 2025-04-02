@@ -4,16 +4,6 @@ This tool packages a Python project into a standalone executable using [PyStand]
 
 ---
 
-## Features
-
-- **Embeddable Python**: Downloads and unzips the embeddable Python runtime.
-- **PyStand Integration**: Downloads and integrates PyStand for creating standalone executables.
-- **Exclusion Options**: Exclude specific directories and files from the project.
-- **Progress Bar**: Displays a progress bar for file copying and downloading.
-- **Customizable Output**: Specify the output directory and Python repository URL.
-
----
-
 ## Installation
 
 1. **Install**:
@@ -106,7 +96,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contributing
 
-Contributions are welcome! Please open an issue or submit a pull request.
+Please open an issue or submit a pull request.
 
 ---
 
