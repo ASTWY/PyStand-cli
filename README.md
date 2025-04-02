@@ -23,7 +23,7 @@ This tool packages a Python project into a standalone executable using [PyStand]
 ### Basic Command
 
 ```bash
-pystand-cli entry_script.py [OPTIONS]
+pystand-cl entry_script.py [OPTIONS]
 ```
 
 ### Options
@@ -42,24 +42,24 @@ pystand-cli entry_script.py [OPTIONS]
 1. **Package a project with an entry script**:
 
    ```bash
-   pystand-cli entry_script.py --project-dir /path/to/project
+   pystand-cl entry_script.py --project-dir /path/to/project
    ```
 
 2. **Exclude specific directories and files**:
 
    ```bash
-   pystand-cli entry_script.py --project-dir /path/to/project --exclude-dirs node_modules --exclude-files .gitignore
+   pystand-cl entry_script.py --project-dir /path/to/project --exclude-dirs node_modules --exclude-files .gitignore
    ```
 
 3. **Run without a console window**:
 
    ```bash
-   pystand-cli entry_script.py --project-dir /path/to/project --noconsole
+   pystand-cl entry_script.py --project-dir /path/to/project --noconsole
    ```
 
 4. **Custom output directory**:
    ```bash
-   pystand-cli entry_script.py --project-dir /path/to/project --output-dir /path/to/output
+   pystand-cl entry_script.py --project-dir /path/to/project --output-dir /path/to/output
    ```
 
 ---
