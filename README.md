@@ -52,24 +52,24 @@ pystand-cli entry_script.py [OPTIONS]
 1. **Package a project with an entry script**:
 
    ```bash
-   python package_project.py main.py --project-dir /path/to/project
+   pystand-cli entry_script.py --project-dir /path/to/project
    ```
 
 2. **Exclude specific directories and files**:
 
    ```bash
-   python package_project.py main.py --project-dir /path/to/project --exclude-dirs node_modules --exclude-files .gitignore
+   pystand-cli entry_script.py --project-dir /path/to/project --exclude-dirs node_modules --exclude-files .gitignore
    ```
 
 3. **Run without a console window**:
 
    ```bash
-   python package_project.py main.py --project-dir /path/to/project --noconsole
+   pystand-cli entry_script.py --project-dir /path/to/project --noconsole
    ```
 
 4. **Custom output directory**:
    ```bash
-   python package_project.py main.py --project-dir /path/to/project --output-dir /path/to/output
+   pystand-cli entry_script.py --project-dir /path/to/project --output-dir /path/to/output
    ```
 
 ---
