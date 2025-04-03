@@ -125,6 +125,8 @@ def package_project(
             s = os.path.join(site_packages, item)
             d = os.path.join(output_dir, "site-packages", item)
             if os.path.isdir(s):
+                if os.path.exists(d):
+                    shutil.rmtree(d)
                 shutil.copytree(s, d, symlinks=True)
             else:
                 shutil.copy2(s, d)
